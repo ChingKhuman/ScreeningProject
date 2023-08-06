@@ -1,33 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
-    height:100vh;
+body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.card{
+.card {
     max-width: 350px;
     background-color: white;
     width: 100%;
-    padding:20px
+    padding: 20px
 }
-.card .title{
+
+.card .title {
     text-align: center;
     font-size: 18px;
 }
-.card .content{
+
+.card .content {
     margin-top: 20px;
 }
-.card label.box{
-    
+
+.card label.box {
+
     display: flex;
     margin-top: 12px;
     padding: 10px 12px;
@@ -35,40 +38,135 @@ body{
     transition: all 0.25s ease;
     border-color: #ddd;
     border-width: 1px;
-    border-style:groove;
+    border-style: groove;
     border-radius: 5px;
 }
-.card label.box:hover{
+
+.card label.box:hover {
     background: green;
 }
-.card label.box .course{
+
+.card label.box .course {
     display: flex;
     width: 100%;
     align-items: center;
-    padding:10px
+    padding: 15px
 }
-.card label.box .offerPosition{
+
+
+.card label.box .pair1 {
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+.card label.box .ddk1 {
+    font-family: 'Metropolis';
+    font-size: 14.46px;
+    color: #000000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.card label.box .secondBoxoverwrite{
+display: flex;
+color: #9F9F9F;
+}
+
+.card label.box .ddkoverwrite{
+    font-size: 9.94px;
+    font-family: 'Regular';
+    /* position:absolute; */
+    padding-left: 60%;
+    padding-top: 20px;
+    color: #9F9F9F;
+}
+.card label.box .offerPosition {
+    padding-top: 30px;
+    font-family: 'Metropolis';
+}
+
+.card label.box .offerPosition1 {
     padding-top: 10px;
+    font-family: 'Metropolis';
 }
-.card label.box .pair{
-position: absolute;
-margin-bottom: 20px;
-margin-left: 20px;
+
+.card label.box .pair {
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
-.card label.box .ddk{
-position: absolute;
-margin-top: 20px;
-margin-left: 20px;
+
+.card label.box .ddk {
+    font-family: 'Metropolis';
+    font-size: 14.46px;
+    color: #000000;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 12px;
 }
-.card label.box .circle{
+
+.card label.box .circle {
     height: 12px;
     width: 12px;
     border-radius: 50%;
     margin-right: 15px;
     border: 5px solid transparent;
-    /* background: #ccc;
-   
-    
-    
-    display: inline-block; */
+}
+
+.card .spanNotice {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: Medium;
+    color: #007F61
+}
+
+.card .cardSpanTotal {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: Medium;
+    color: #000000;
+}
+
+.card .cardSpan {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+
+.card .addToCard {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #007F61;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.card .addToCardSpan {
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.card .cardSpanPowered {
+    font-size: 12px;
+    font-family: 'Inter';
+    padding-top: 7px;
+    text-align: end;
+    display: flex;
+    justify-content: end;
 }
