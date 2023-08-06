@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    max-width: 350px;
+    background-color: white;
+    width: 100%;
+    padding:20px
+}
+.card .title{
+    text-align: center;
+    font-size: 18px;
+}
+.card .content{
+    margin-top: 20px;
+}
+.card label.box{
+    
+    display: flex;
+    margin-top: 12px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style:groove;
+    border-radius: 5px;
+}
+.card label.box:hover{
+    background: green;
+}
+.card label.box .course{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding:10px
+}
+.card label.box .offerPosition{
+    padding-top: 10px;
+}
+.card label.box .pair{
+position: absolute;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+.card label.box .ddk{
+position: absolute;
+margin-top: 20px;
+margin-left: 20px;
+}
+.card label.box .circle{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 5px solid transparent;
+    /* background: #ccc;
+   
+    
+    
+    display: inline-block; */
+}
