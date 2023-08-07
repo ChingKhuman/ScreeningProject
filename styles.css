@@ -211,6 +211,15 @@ body {
     margin-bottom: 30px;
     margin-left: 35px;
 }
+.card label.box1 .popular{
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 242px;
+    color: green;
+}
 
 .card label.box1 .ddk1 {
     font-family: 'Metropolis';
@@ -224,24 +233,23 @@ body {
 .card label.box .circle {
     height: 12px;
     width: 12px;
-    background-color: #ccc;
+    background-color: #e6dbdb;
     border-radius: 50%;
     margin-right: 15px;
     border: 5px solid transparent;
     display: inline-block;
-    border:1px solid transparent;
-    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+   
+  
 }
 .card label.box1 .circle {
     height: 12px;
     width: 12px;
-    background-color: #ccc;
+    background-color: #e1dcdc;
     border-radius: 50%;
     margin-right: 15px;
     border: 5px solid transparent;
     display: inline-block;
-    border:1px solid transparent;
-    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+  
 }
 #one:checked ~ .content label.first,
 #three:checked ~ .content label.third{
