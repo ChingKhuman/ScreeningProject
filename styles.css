@@ -45,27 +45,30 @@ body {
     font-size: 18px;
     position: relative;
     max-width: 500px;
+    color: green;
+    font-family: "Inter";
+    font-weight: medium;
  
 }
 .card .title:before{
     content:" ";
     height: 1px;
-    width: 90px;
+    width: 110px;
     background: grey;
     display: block;
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 0;
   }
   
   .card .title:after{
     content:" ";
     height: 1px;
-    width: 90px;
+    width: 110px;
     background: grey;
     display: block;
     position: absolute;
-    top: 70%;
+    top: 75%;
     right: 0;
   }
 
@@ -215,19 +218,58 @@ body {
     color: #000000;
     position: absolute;
     margin-top: 2px;
-    margin-left: 22px;
+    margin-left: 8px;
 }
 
 .card label.box .circle {
     height: 12px;
     width: 12px;
+    background-color: #ccc;
     border-radius: 50%;
     margin-right: 15px;
     border: 5px solid transparent;
+    display: inline-block;
+    border:1px solid transparent;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
 }
-#one:checked ~ label.first .circle{
+.card label.box1 .circle {
+    height: 12px;
+    width: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 5px solid transparent;
+    display: inline-block;
+    border:1px solid transparent;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+}
+#one:checked ~ .content label.first,
+#three:checked ~ .content label.third{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#two:checked ~ .content1{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#one:checked ~ .content label.first .circle,
+#three:checked ~ .content label.third .circle{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#two:checked ~ .content1 .circle{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+.card input[type="radio"]{
+    display: none;
+}
+/* #one:checked ~ label.first,
+#two:checked ~ label.second,
+#three:checked ~ label.third
+{
 border-color: green;
-}
+} */
 .card .spanNotice {
     font-size: 16px;
     font-family: 'Inter';
