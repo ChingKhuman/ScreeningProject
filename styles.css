@@ -22,11 +22,20 @@ body {
     }
     
     body {
-        height: 60vh;
+        height: 70vh;
         display: flex;
         align-items: center;
         justify-content: center;
     
+    }
+    .card .content1 .course1 .popular{
+        font-family: 'Inter';
+        font-weight: 'Regular';
+        font-size: 14.46px;
+        position: absolute;
+        margin-bottom: 30px;
+        margin-left: 230px;
+        color: green;
     }
 }
 
