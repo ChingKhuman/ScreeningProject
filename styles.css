@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    body {
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .card .content1 .course1 .popular{
+        font-family: 'Inter';
+        font-weight: 'Regular';
+        font-size: 14.46px;
+        position: absolute;
+        margin-bottom: 30px;
+        margin-left: 230px;
+        color: green;
+    }
+}
+
+.card {
+    align-items: center;
+    
+    
+    max-width: 400px;
+    background-color: white;
+    width: 100%;
+    padding: 20px
+}
+
+.card .title {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    max-width: 500px;
+    color: green;
+    font-family: "Inter";
+    font-weight: medium;
+ 
+}
+.card .title:before{
+    content:" ";
+    height: 1px;
+    width: 110px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 0;
+  }
+  
+  .card .title:after{
+    content:" ";
+    height: 1px;
+    width: 110px;
+    background: grey;
+    display: block;
+    position: absolute;
+    top: 75%;
+    right: 0;
+  }
+
+.card .content {
+    margin-top: 10px;
+}
+
+.card .content1 {
+    margin-top: 10px;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.card .content1 .box1 .content .course1 input[type="radio"]{
+    background-color: green;
+}
+
+.card label.box {
+
+    display: flex;
+    margin-top: 12px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.card label.box1 {
+
+    display: flex;
+    margin-top: 4px;
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.card label.boxHover{
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.card .content1 .content1Dropdown {
+    padding-left: 40px;
+    
+    padding-bottom: 20px;
+}
+
+.card label.box:hover {
+    background: #C0F7C6;
+    border-color: #007F61;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 5px;
+
+}
+
+.card .content1:hover {
+    background: #C0F7C6;
+    border-color: #007F61;
+    border-width: 1px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.card label.box .course {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px
+}
+
+.card label.box1 .course1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px
+}
+
+
+
+.card label.box .pair {
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.card label.box .ddk {
+    font-family: 'Metropolis';
+    font-size: 14.46px;
+    color: #000000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.card label.box .secondBoxoverwrite {
+    display: flex;
+    color: #9F9F9F;
+}
+
+.card .content1 .content1Dropdown .cardContent1Dspan {
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 9.04px;
+    padding-right: 8px;
+    
+}
+
+.card label.box1 .ddkoverwrite {
+    font-size: 9.94px;
+    font-family: 'Regular';
+    /* position:absolute; */
+    padding-left: 60%;
+    padding-top: 20px;
+    color: #9F9F9F;
+}
+
+.card label.box1 .offerPosition {
+    padding-top: 30px;
+    font-family: 'Metropolis';
+}
+
+.card label.box .offerPosition1 {
+    padding-top: 10px;
+    font-family: 'Metropolis';
+}
+
+.card label.box1 .pair1 {
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+.card label.box1 .popular{
+    font-family: 'Inter';
+    font-weight: 'Regular';
+    font-size: 14.46px;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 242px;
+    color: green;
+}
+
+.card label.box1 .ddk1 {
+    font-family: 'Metropolis';
+    font-size: 14.46px;
+    color: #000000;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.card label.box .circle {
+    height: 12px;
+    width: 12px;
+    background-color: #e6dbdb;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 5px solid transparent;
+    display: inline-block;
+   
+  
+}
+.card label.box1 .circle {
+    height: 12px;
+    width: 12px;
+    background-color: #e1dcdc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 5px solid transparent;
+    display: inline-block;
+  
+}
+#one:checked ~ .content label.first,
+#three:checked ~ .content label.third{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#two:checked ~ .content1{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#one:checked ~ .content label.first .circle,
+#three:checked ~ .content label.third .circle{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+#two:checked ~ .content1 .circle{
+    background: #C0F7C6;
+    border-color: #007F61;
+}
+.card input[type="radio"]{
+    display: none;
+}
+/* #one:checked ~ label.first,
+#two:checked ~ label.second,
+#three:checked ~ label.third
+{
+border-color: green;
+} */
+.card .spanNotice {
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: Medium;
+    color: #007F61
+}
+
+.card .cardSpanTotal {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: Medium;
+    color: #000000;
+}
+
+.card .cardSpan {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+
+.card .addToCard {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #007F61;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 14px;
+    border-radius: 5px;
+}
+
+.card .addToCardSpan {
+    font-size: 16px;
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.card .cardSpanPowered {
+    font-size: 12px;
+    font-family: 'Inter';
+    padding-top: 7px;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+}
