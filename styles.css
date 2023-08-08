@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     display: flex;
+   
     align-items: center;
     justify-content: center;
 
@@ -91,6 +92,9 @@ body {
     border-width: 1px;
     border-style: groove;
     border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    
 }
 
 .card .content1 .box1 .content .course1 input[type="radio"]{
@@ -124,8 +128,7 @@ body {
 }
 
 .card .content1 .content1Dropdown {
-    padding-left: 40px;
-    
+    padding-left: 40px;    
     padding-bottom: 20px;
 }
 
@@ -159,7 +162,6 @@ body {
     align-items: center;
     padding: 15px
 }
-
 
 
 .card label.box .pair {
@@ -197,7 +199,7 @@ body {
     font-size: 9.94px;
     font-family: 'Regular';
     /* position:absolute; */
-    padding-left: 60%;
+    padding-left: 200%;
     padding-top: 20px;
     color: #9F9F9F;
 }
@@ -205,6 +207,7 @@ body {
 .card label.box1 .offerPosition {
     padding-top: 30px;
     font-family: 'Metropolis';
+    padding-left: 170px;
 }
 
 .card label.box .offerPosition1 {
